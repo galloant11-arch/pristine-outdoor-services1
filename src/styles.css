@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #0c1f2c;
+  color: white;
+}
+
+.nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* Hero (UPDATED luxury backyard look) */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("https://urbanoasiscontracting.com/wp-content/uploads/2025/06/texas-backyard-summer-landscape-821.webp")
+    center/cover;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Button */
+.btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* Images inside cards */
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
